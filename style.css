@@ -202,7 +202,7 @@ span{
 }
 
 .typing-text span::before{
-    content: "soft Developer";
+    content: "Soft Developer";
     color: #b74b4b;
     animation: words 2s infinite;
 }
