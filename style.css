@@ -134,13 +134,17 @@ span{
     border-radius: 50%;
 }
 
-.home-img img{
+.home-img img {
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
+    box-shadow: 0 0 25px 10px rgba(255, 255, 255, 0.8);
     cursor: pointer;
     transition: 0.2s linear;
+}
+
+.home-img img:hover {
+    box-shadow: 0 0 30px 15px rgba(255, 255, 255, 1);
 }
 
 .home-img img:hover{
@@ -258,4 +262,3 @@ span{
         margin-top: 4rem;
     }
 }
-
